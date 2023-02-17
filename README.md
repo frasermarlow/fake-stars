@@ -1,4 +1,4 @@
-# dagster-fakestar README.md
+# dagster-fakestar: A Dagster tutorial
 
 This is a simple Dagster project to analyze the number of fake GitHub stars on any GitHub repository.  It is a companion to the blogpost found [on the Dagster blog](https:dagster.io/blog).
 
