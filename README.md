@@ -1,19 +1,26 @@
 # dagster-fakestar README.md
 
-This is a simple Dagster project to analyze the number of fake GitHub stars on any GitHub repository.
+This is a simple Dagster project to analyze the number of fake GitHub stars on any GitHub repository.  It is a companion to the blogpost found [on the Dagster blog](https:dagster.io/blog).
 
-### Install instructions [rough edit]
+### Install instructions
 
-#make the virtual env
+Build a virtual environment
+```commandline
 python3 -m venv venv
 source venv/bin/activate
+```
+Install Dagster and our other dependencies - see https://docs.dagster.io/getting-started/install
+Note for M1 Mac users you may need to use `pip install dagster dagit --find-links=https://github.com/dagster-io/build-grpcio/wiki/Wheels`
 
-#Install Dagster and our other dependencies
+```commandline
 Python3 -m pip install dagster dagit
 pip install PyGithub
 pip install pandas
+```
 
-Import this repo.
+Next, import this repo.
+`git clone https://github.com/frasermarlow/fake-stars.git`
+
 Execute this one-file project with the command:
 
 ```commandline
