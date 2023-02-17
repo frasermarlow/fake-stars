@@ -31,7 +31,7 @@ GITHUB_ACCESS_TOKEN=<<GITHUB_ACCESS_TOKEN>> DAGSTER_HOME=~/<<PROJECT_FOLDER>>>>/
 
 You can specify the repository you want to analyze on line 8 by replacing the values in 
 ```commandline
-ORCHESTRATOR = {'name':'mage',  'repo': 'mage-ai/mage-ai'}
+ORCHESTRATOR = {'name':'THE-REPO-NAME-ARBITRARY',  'repo': 'THEREPOORG/THEREPO'}
 ```
 
 `name` is arbitrary and `repo` is part tf the public url for your target respository. 
